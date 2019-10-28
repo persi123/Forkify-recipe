@@ -65,7 +65,7 @@ const controleRecipe = async () => {
     }
   }
 };
-// window.addEventListener("hashchange", controleRecipe);
+
 ["hashchange", "load"].forEach(event =>
   window.addEventListener(event, controleRecipe)
 );
