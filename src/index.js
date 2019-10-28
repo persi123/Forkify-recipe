@@ -41,9 +41,6 @@ elements.searchRespages.addEventListener("click", el => {
   }
 });
 
-// const r = new Recipe(46956);
-// r.getRecipe();
-// console.log(r);
 const controleRecipe = async () => {
   const id = window.location.hash.replace("#", "");
 
